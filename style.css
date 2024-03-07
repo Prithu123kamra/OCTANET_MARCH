@@ -1,0 +1,426 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family:'Times New Roman', Times, serif;
+
+}
+
+.buttons{
+    width: 100%;
+    background-color: rgb(74, 73, 73);
+    display:flex;
+    padding-left: 400px;
+    padding-right: 300px;
+    gap: 30px;
+    height: 40px;
+    
+}
+.buttons a{
+    color: rgb(163, 162, 162);
+    text-decoration: none;
+    display: flex;
+    padding-top: 10px;
+    
+    gap:5px;
+    
+}
+.nykaa{
+    width: 100%;
+    height: 80px;
+    
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+
+}
+.links{
+    display:flex;
+    font-size: 20px;
+    /* justify-content: space-between; */
+    gap: 20px;
+    padding-left: 50px;
+    padding-top: 30px;
+    color: rgb(170, 169, 169);
+}
+.nykaa_logo img{
+    padding-top: 20px;
+    width: 150px;
+    
+}
+.search{
+    border: 1px solid rgba(151,151,151,0.1);
+    width: 100%;
+    display: flex;
+    height:35px;
+    
+}
+.search_button {
+    border: none;
+    background-color: white;
+    padding-right: 2px;
+}
+form {
+    border: 2px solidwhite; 
+    outline: none;
+    width: 100%;
+    border-radius: 4px;
+    background-color:transparent;
+    display: flex;
+    height: 30px;
+    
+    
+}
+
+input {
+    border: none; 
+    width: 100%;
+    background-color:white;
+    /* margin-bottom: 5px; */
+}
+.right-items{
+    display: flex;
+    padding-top: 20px;
+    padding-right: 50px;
+    justify-content: space-between;
+    gap:10px;
+}
+.user{
+    padding: 5px;
+}
+.bag{
+    padding-top: 5px;
+    padding-left: 10px;
+}
+.two_divs{
+    display: flex;
+    width: 100%;
+    
+}
+.beauty_book{
+    width: 50%;
+    /* height: 800px; */
+}
+.beauty_book img{
+    width: 100%;
+    height: 500px;
+}
+.text{
+    padding: 5px;
+    position: absolute;
+    left: 100px;
+    top: 500px;
+}
+.text h1{
+    color: rgb(77, 69, 69);
+}
+.text p{
+    color: rgb(92, 88, 88);
+}
+.button{
+    margin-left: 150px;
+    cursor: pointer;
+    margin-top: 10px;
+    background-color:rgb(252, 7, 117);
+    border: 1px solid rgb(252, 7, 117);
+    color: white;
+    border-radius: 4px;
+    padding: 6px;
+    box-shadow: -8px -8px 15px rgb(242, 240, 240,0.1), 5px 5px 15px rgba(0,0,0,0.2);
+    font-size: 20px;
+    margin-bottom: 10px
+}
+.button:hover{
+    background-color: white;
+    border:1px solid white;
+    color:rgb(252, 7, 117);
+}
+
+.side{
+    padding-left: 100px;
+    width:50%;
+    padding-top: 50px;
+    background-color:rgb(252, 7, 117);
+    color: white;
+    height: 500px;
+    
+}
+.side h1{
+    padding-bottom: 20px;
+    
+}
+.side p{
+    padding-bottom: 20px;
+}
+.side h4{
+    padding-bottom: 40px;
+}
+.button1{
+    padding:10px;
+    color:rgb(252, 7, 117);
+    border: 1px solid rgb(252, 7, 117);
+    border-radius: 4px;
+    font-size: 20px;box-shadow: -8px -8px 15px , 5px 5px 15px rgba(0,0,0,0.5);
+    cursor: pointer;
+}
+.buttons3{
+    padding-left: 400px;
+    /* margin-top: 0; */
+
+    display: flex;
+    /* justify-content: space-between; */
+    gap: 150px;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    background-color:white;
+}
+.button3{
+    cursor: pointer;
+    margin-top: 10px;
+    background-color:rgb(252, 7, 117);
+    border: 1px solid rgb(252, 7, 117);
+    color: white;
+    border-radius: 4px;
+    padding: 10px;
+    box-shadow: -8px -8px 15px white, 5px 5px 15px rgba(0,0,0,0.5);
+}
+.button3:hover{
+    background-color: white;
+    border:1px solid white;
+    color:rgb(252, 7, 117);
+}
+
+.nails{
+    width: 100%;
+    display: flex;
+
+}
+.nails img{
+    width: 80%;
+    padding-left: 100px;
+    height: 500px;
+}
+
+.background{
+    background-color: rgb(250, 248, 248);
+    width: 30%;
+    margin-right: 400px;
+    margin-top: 80px;
+    margin-bottom: 50px;
+}
+.text1{
+    padding: 5px;
+    position: absolute;
+    left: 750px;
+    top: 1050px;
+}
+.text1 h2{
+    color: rgb(77, 69, 69);
+    padding-bottom: 10px;
+}
+.text1 p{
+    color: rgb(92, 88, 88);
+
+}
+.button2{
+    cursor: pointer;
+    margin-top: 10px;
+    background-color:rgb(252, 7, 117);
+    border: 1px solid rgb(252, 7, 117);
+    color: white;
+    border-radius: 4px;
+    padding: 6px;
+    box-shadow: -8px -8px 15px rgb(242, 240, 240,0.5), 5px 5px 15px rgba(0,0,0,0.2);
+    font-size: 15px;
+    margin-bottom: 10px;
+}
+.button2:hover{
+    background-color: white;
+    border:1px solid white;
+    color:rgb(252, 7, 117);
+}
+.skin_care{
+    width: 100%;
+    display: flex;
+}
+.background1{
+    background-color: rgb(250, 248, 248);
+    width: 45%;
+    margin-left: 350px;
+    margin-top: 100px;
+    margin-bottom: 50px;
+}
+.text2{
+    padding: 5px;
+    position: absolute;
+    left: 90px;
+    top: 1600px;
+}
+.text2 h2{
+    color: rgb(77, 69, 69);
+    padding-bottom: 10px;
+}
+.text2 p{
+    color: rgb(92, 88, 88);
+    padding-bottom: 10px;
+
+}
+.skin_care img{
+    width: 55%;
+    padding-right: 100px;
+    height: 500px;
+    padding-top: 50px;
+}
+.heading h1{
+    text-align: center;
+    padding-top: 100px;
+    color: rgb(86, 86, 86);
+    padding-bottom: 40px;
+}
+.daily{
+    padding: 50px;
+    background-color: rgb(235, 232, 232);
+    height: 250px;
+}
+.inside{
+    display: flex;
+    flex-direction: column;
+}
+.headin{
+    color: rgb(152, 152, 152);
+    padding-bottom: 50px;
+}
+.images{
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+
+}
+.images img{
+    width: 200px;
+    height: 300px;
+    border-radius: 5px;
+} 
+.images a{
+    text-decoration: none;
+    color: grey;
+}
+.follow p{
+    color: grey;
+    
+}
+.follow{
+    padding-left: 1080px;
+    padding-top: 20px;
+}
+.heading1{
+    padding-top: 300px;
+    text-align: center;
+    padding-bottom: 50px;
+}
+.heading1 h1{
+    color: rgb(54, 53, 53);
+}
+.images1{
+    display: flex;
+    /* justify-content: space-between; */
+    gap: 20px;
+    padding-left: 50px;
+    padding-right: 50px;
+    width: 100%;
+}
+.image1{
+    width: 33%;
+    border-radius: 10px;
+}
+.image2{
+    width: 100%;
+    height: 500px;
+}
+.image3{
+    width: 33%;
+    height: 400px;
+}
+
+ .try{
+    background: url(https://th.bing.com/th/id/R.d199ef21a5502444852ec7e95d95fc14?rik=LPIN6x68iy32OQ&riu=http%3a%2f%2fattractmorenow.com%2fwp-content%2fuploads%2f2017%2f10%2fcropped-klu-background.jpg&ehk=Lucj6ZkYHzgZ2U%2fst7MLN6MJ0P0T1X4tVmltnM%2f7qOw%3d&risl=&pid=ImgRaw&r=0);
+    color: white;
+    text-align: center;
+    padding-bottom: 20px;
+    margin-top: 80px;
+}
+.try h1{
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+.try h4{
+    padding-bottom: 20px;
+}
+.button4{
+    padding: 8px;
+    border-radius: 4px;
+    border: 2px solid  rgb(249, 165, 203);
+    font-size: 20px;
+    background-color:white;
+    color: rgb(252, 7, 117);box-shadow: -8px -8px 15px rgb(242, 240, 240,0.2), 5px 5px 15px rgba(253, 23, 149, 0.2);
+}
+.links1{
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    background-color: rgb(217, 217, 217);
+    padding-right: 100px;
+}
+
+.who{
+    padding-top: 50px;
+    display: flex;
+    flex-direction: column;
+    padding-left:150px;
+}
+.who h1{
+    padding-bottom: 20px;
+    color: rgb(73, 73, 73);
+}
+.who a{
+    text-decoration: none;
+    color: grey;
+    padding-bottom: 10px;
+}
+.who1{
+    padding-top: 50px;
+    display: flex;
+    flex-direction: column;
+}
+.who1 h1{
+    padding-bottom: 20px;
+    color: rgb(73, 73, 73);
+}
+.who1 a{
+    text-decoration: none;
+    color: grey;
+    padding-bottom: 10px;
+}
+.save{
+    margin-top: 30px;
+    background-color:rgb(252, 7, 117);
+    color: white;
+    border:2px solid rgb(252, 7, 117);
+    border-radius: 20px;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+.copyright{
+    background-color: rgb(105, 104, 104);
+    color: white;
+    text-align: center;
+    padding:5px;
+}
+
+
+
+
+
+
